@@ -18,3 +18,11 @@
       - url: http://dingding:8060/dingtalk/webhook1/send
  ```
 
+##### 部署
+
+```
+kubectl apply -f kube-prometheus/setup
+kubectl apply -f kube-prometheus/dingding
+kubectl apply -f kube-prometheus
+```
+
